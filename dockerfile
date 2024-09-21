@@ -34,7 +34,7 @@ RUN composer install --no-dev --optimize-autoloader --ignore-platform-reqs
 RUN npm install
 
 # Compila los assets de Vue.js si es necesario
-RUN npm run build
+RUN npm run production
 
 # Da permisos a las carpetas de almacenamiento y cache
 RUN chown -R www-data:www-data /var/www/html/storage /var/www/html/bootstrap/cache
