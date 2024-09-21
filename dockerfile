@@ -10,13 +10,13 @@ RUN apt-get update && apt-get install -y \
     libfreetype6-dev \
     libonig-dev \
     libxml2-dev \
+    libzip-dev \
     zip \
     unzip \
     npm
-    
 
 # Instala extensiones de PHP requeridas para Laravel
-RUN docker-php-ext-install pdo_mysql mbstring exif pcntl bcmath gd
+RUN docker-php-ext-install pdo_mysql mbstring exif pcntl bcmath gd zip
 
 # Instala Composer
 COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
@@ -28,7 +28,7 @@ WORKDIR /var/www/html
 COPY . .
 
 # Instala dependencias de Composer
-RUN composer install --no-dev --optimize-autoloader
+RUN composer install --no-dev --optimize-autoloader --ignore-platform-reqs
 
 # Instala dependencias de Node.js
 RUN npm install
@@ -49,3 +49,4 @@ EXPOSE 9000
 
 # Comando para iniciar PHP-FPM
 CMD ["php-fpm"]
+
