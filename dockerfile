@@ -39,6 +39,10 @@ RUN npm run production
 # Da permisos a las carpetas de almacenamiento y cache
 RUN chown -R www-data:www-data /var/www/html/storage /var/www/html/bootstrap/cache
 
+RUN chmod -R 775 /var/www/html/storage /var/www/html/bootstrap/cache
+
+
+
 # Configuración de Laravel
 RUN php artisan config:cache
 RUN php artisan route:cache
