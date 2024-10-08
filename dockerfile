@@ -13,7 +13,8 @@ RUN apt-get update && apt-get install -y \
     libzip-dev \
     zip \
     unzip \
-    npm
+    npm \
+    nginx
 
 # Instala Composer
 COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
@@ -38,20 +39,15 @@ RUN chown -R www-data:www-data /var/www/html/storage /var/www/html/bootstrap/cac
 
 # Configuración de Laravel
 RUN php artisan config:cache && \
-php artisan route:cache && \
-php artisan view:cache
+    php artisan route:cache && \
+    php artisan view:cache
 
-# Copiar el script de entrypoint
-COPY entrypoint.sh /entrypoint.sh
-RUN chmod +x /entrypoint.sh
-
-# Configura el entrypoint para que inicie PHP-FPM después de las migraciones
-ENTRYPOINT ["/entrypoint.sh"]
+# Copiar configuración de Nginx
+COPY nginx/default.conf /etc/nginx/conf.d/default.conf
 
 
-# Exponer el puerto
-EXPOSE 9000
+# Exponer el puerto para Nginx
+EXPOSE 80
 
-
-# Comando para iniciar PHP-FPM
-CMD ["php-fpm"]
+# Ejecutar migraciones y luego iniciar Nginx y PHP-FPM
+CMD ["sh", "-c", "php artisan migrate --force && service nginx start && php-fpm"]
