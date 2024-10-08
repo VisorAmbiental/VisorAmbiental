@@ -15,9 +15,6 @@ RUN apt-get update && apt-get install -y \
     unzip \
     npm
 
-# Instala extensiones de PHP requeridas para Laravel
-RUN docker-php-ext-install pdo_mysql mbstring exif pcntl bcmath gd zip
-
 # Instala Composer
 COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 
@@ -27,30 +24,31 @@ WORKDIR /var/www/html
 # Copia los archivos del proyecto
 COPY . .
 
-# Instala dependencias de Composer
-RUN composer install --no-dev --optimize-autoloader --ignore-platform-reqs
+# Instala dependencias de Composer y Node.js
+RUN composer install --no-dev --optimize-autoloader --ignore-platform-reqs && \
+    npm install && \
+    npm run production
 
-# Instala dependencias de Node.js
-RUN npm install
-
-# Compila los assets de Vue.js si es necesario
-RUN npm run production
 
 # Da permisos a las carpetas de almacenamiento y cache
-RUN chown -R www-data:www-data /var/www/html/storage /var/www/html/bootstrap/cache
-
-RUN chmod -R 775 /var/www/html/storage /var/www/html/bootstrap/cache
+RUN chown -R www-data:www-data /var/www/html/storage /var/www/html/bootstrap/cache && \
+    chmod -R 775 /var/www/html/storage /var/www/html/bootstrap/cache
 
 
 
 # Configuración de Laravel
-RUN php artisan config:cache
-RUN php artisan route:cache
-RUN php artisan view:cache
+RUN php artisan config:cache && \
+php artisan route:cache && \
+php artisan view:cache
+
+
+# Ejecuta las migraciones de la base de datos
+RUN php artisan migrate --force
+
 
 # Exponer el puerto
 EXPOSE 9000
 
-# Comando para iniciar PHP-FPM
-CMD ["php", "artisan", "serve", "--host=0.0.0.0", "--port=80"]
 
+# Comando para iniciar PHP-FPM
+CMD ["php-fpm"]
