@@ -41,9 +41,12 @@ RUN php artisan config:cache && \
 php artisan route:cache && \
 php artisan view:cache
 
+# Copiar el script de entrypoint
+COPY entrypoint.sh /entrypoint.sh
+RUN chmod +x /entrypoint.sh
 
-# Ejecuta las migraciones de la base de datos
-RUN php artisan migrate --force
+# Configura el entrypoint para que inicie PHP-FPM después de las migraciones
+ENTRYPOINT ["/entrypoint.sh"]
 
 
 # Exponer el puerto
