@@ -29,6 +29,12 @@ WORKDIR /var/www/html
 # Copia los archivos del proyecto
 COPY . .
 
+
+# Copiar el script wait-for-it
+COPY scripts/wait-for-it.sh /usr/local/bin/wait-for-it.sh
+RUN chmod +x /usr/local/bin/wait-for-it.sh
+
+
 # Instala dependencias de Composer y Node.js
 RUN composer install --no-dev --optimize-autoloader --ignore-platform-reqs && \
     npm install && \
@@ -56,7 +62,6 @@ COPY nginx/default.conf /etc/nginx/conf.d/default.conf
 # Exponer el puerto para Nginx
 EXPOSE 80
 
-# Ejecutar migraciones y luego iniciar Nginx y PHP-FPM
 
 # Ejecutar migraciones y luego iniciar Nginx y PHP-FPM
-CMD ["sh", "-c", "until nc -z -v -w30 $DB_HOST $DB_PORT; do echo 'Waiting for database connection...'; sleep 5; done; echo 'Database is up, executing migrations...'; php artisan migrate --force && service nginx start && php-fpm"]
+CMD ["sh", "-c", "/usr/local/bin/wait-for-it.sh $DB_HOST:$DB_PORT -- echo 'Database is up, executing migrations...' && php artisan migrate --force && service nginx start && php-fpm"]
