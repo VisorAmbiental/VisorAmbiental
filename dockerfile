@@ -64,4 +64,4 @@ EXPOSE 80
 
 
 # Ejecutar migraciones y luego iniciar Nginx y PHP-FPM
-CMD ["sh", "-c", "/usr/local/bin/wait-for-it.sh $DB_HOST:$DB_PORT -t 60 -- echo 'Database is up, executing migrations...' && php artisan migrate --force && service nginx start && php-fpm"]
+CMD ["sh", "-c", "php artisan migrate --force && service nginx start && php-fpm"]
