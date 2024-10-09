@@ -57,4 +57,6 @@ COPY nginx/default.conf /etc/nginx/conf.d/default.conf
 EXPOSE 80
 
 # Ejecutar migraciones y luego iniciar Nginx y PHP-FPM
-CMD ["sh", "-c", "until nc -z -v -w30 $DB_HOST $DB_PORT do echo 'Waiting for database connection...' sleep 5 done echo 'Database is up, executing migrations...' php artisan migrate --force && service nginx start && php-fpm "]
+
+# Ejecutar migraciones y luego iniciar Nginx y PHP-FPM
+CMD ["sh", "-c", "until nc -z -v -w30 $DB_HOST $DB_PORT; do echo 'Waiting for database connection...'; sleep 5; done; echo 'Database is up, executing migrations...'; php artisan migrate --force && service nginx start && php-fpm"]
