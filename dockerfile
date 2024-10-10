@@ -64,5 +64,7 @@ COPY nginx/default.conf /etc/nginx/conf.d/default.conf
 EXPOSE 80
 
 
+
 # Ejecutar migraciones y luego iniciar Nginx y PHP-FPM
-CMD ["sh", "-c", "php artisan migrate --force && service nginx start && php-fpm"]
+# CMD ["sh", "-c", "php artisan migrate --force && service nginx start && php-fpm"]
+CMD ["sh", "-c", "php artisan migrate --path=/database/migrations/custom/2022_04_24_000000_enable_postgis_extension.php && php artisan migrate --force && service nginx start && php-fpm"]
