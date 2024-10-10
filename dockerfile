@@ -56,6 +56,10 @@ RUN php artisan config:clear && \
     php artisan view:cache
 
 
+# Verificar sin default.config existe en el contenedor
+RUN ls -la /etc/nginx/conf.d/
+
+
 # Copiar configuración de Nginx
 COPY nginx/default.conf /etc/nginx/conf.d/default.conf
 
