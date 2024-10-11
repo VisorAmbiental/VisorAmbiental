@@ -20,7 +20,10 @@ RUN apt-get update && apt-get install -y \
     apt-get clean && rm -rf /var/lib/apt/lists/*
 
 
-RUN find / -name 'www.conf'
+RUN apt-get update && apt-get install -y php8.1-fpm
+
+
+RUN find / -type f -name 'www.conf'
 
 # Instala Composer
 COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
