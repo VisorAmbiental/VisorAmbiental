@@ -25,7 +25,7 @@ RUN sed -i 's|listen = .*|listen = /var/run/php/php8.1-fpm.sock|' /usr/local/etc
 # Establecer permisos para el socket Unix
 RUN echo "listen.owner = www-data\nlisten.group = www-data\nlisten.mode = 0660" >> /usr/local/etc/php-fpm.d/www.conf
 
-RUN ls -la /var/run/php/
+#RUN ls -la /var/run/php/
 
 # Instala Composer
 COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
