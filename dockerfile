@@ -21,11 +21,17 @@ RUN apt-get update && apt-get install -y \
 
 
 
-# Modifica el archivo www.conf para cambiar el socket a 127.0.0.1:9000
-RUN sed -i 's|listen = /var/run/php/php8.1-fpm.sock|listen = 127.0.0.1:9000|' /usr/local/etc/php-fpm.d/www.conf
+# Modifica el archivo www.conf para cambiar al Unix
+RUN sed -i 's|listen = .*|listen = /var/run/php/php8.1-fpm.sock|' /usr/local/etc/php-fpm.d/www.conf
+
+# Establecer permisos para el socket
+RUN echo "listen.owner = www-data\nlisten.group = www-data\nlisten.mode = 0660" >> /usr/local/etc/php-fpm.d/www.conf
+
 
 # Instala Composer
 COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
+
+
 
 # Establece el directorio de trabajo
 WORKDIR /var/www/html
