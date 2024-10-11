@@ -25,6 +25,8 @@ RUN sed -i 's|listen = .*|listen = /var/run/php/php8.1-fpm.sock|' /usr/local/etc
 # Establecer permisos para el socket Unix
 RUN echo "listen.owner = www-data\nlisten.group = www-data\nlisten.mode = 0660" >> /usr/local/etc/php-fpm.d/www.conf
 
+RUN ls -la /var/run/php/
+
 # Instala Composer
 COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 
@@ -62,15 +64,15 @@ RUN rm /etc/nginx/sites-enabled/default
 COPY nginx/default.conf /etc/nginx/conf.d/default.conf
 
 # Crear carpeta para los logs de Nginx
-RUN mkdir -p /var/www/html/nginx-logs && \
-    touch /var/log/nginx/access.log /var/log/nginx/error.log && \
-    chmod 777 /var/log/nginx/access.log /var/log/nginx/error.log && \
-    cp /var/log/nginx/access.log /var/www/html/nginx-logs/access.log && \
-    cp /var/log/nginx/error.log /var/www/html/nginx-logs/error.log
+#RUN mkdir -p /var/www/html/nginx-logs && \
+#    touch /var/log/nginx/access.log /var/log/nginx/error.log && \
+#    chmod 777 /var/log/nginx/access.log /var/log/nginx/error.log && \
+#    cp /var/log/nginx/access.log /var/www/html/nginx-logs/access.log && \
+#    cp /var/log/nginx/error.log /var/www/html/nginx-logs/error.log
 
 # Exponer el puerto para Nginx
 EXPOSE 80
 
 # Ejecutar migraciones y luego iniciar Nginx y PHP-FPM
   CMD ["sh", "-c", "php artisan migrate --path=database/migrations/custom/2022_04_24_000000_enable_postgis_extension.php --force && php artisan migrate --force && service nginx start && php-fpm -F"]
-#CMD  sh    -c   "php artisan migrate --path=database/migrations/custom/2022_04_24_000000_enable_postgis_extension.php --force && php artisan migrate --force && service nginx start && php-fpm -F"
+  #CMD ["sh", "-c", "php artisan migrate --path=database/migrations/custom/2022_04_24_000000_enable_postgis_extension.php --force && php artisan migrate --force && service nginx start && php-fpm -F & tail -f /var/log/nginx/*.log"]
