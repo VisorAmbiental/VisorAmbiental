@@ -65,6 +65,11 @@ COPY nginx/default.conf /etc/nginx/conf.d/default.conf
 # Verificar sin default.config existe en el contenedor
 RUN ls -la /etc/nginx/conf.d/
 
+# Crear directorio de logs y copiar los logs de nginx para tener acceso a ellos
+RUN mkdir -p /var/www/html/nginx-logs && \
+    cp /var/log/nginx/access.log /var/www/html/nginx-logs/access.log && \
+    cp /var/log/nginx/error.log /var/www/html/nginx-logs/error.log
+
 
 # Exponer el puerto para Nginx
 EXPOSE 80
