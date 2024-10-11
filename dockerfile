@@ -54,6 +54,9 @@ RUN php artisan config:clear && \
     php artisan route:cache && \
     php artisan view:cache
 
+    
+
+RUN rm /etc/nginx/conf.d/default.conf
 
 # Copiar configuración de Nginx
 COPY nginx/default.conf /etc/nginx/conf.d/default.conf
