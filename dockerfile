@@ -20,7 +20,7 @@ RUN apt-get update && apt-get install -y \
     apt-get clean && rm -rf /var/lib/apt/lists/*
 
 
-RUN find /etc -name 'www.conf'
+RUN find / -name 'www.conf'
 
 # Instala Composer
 COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
