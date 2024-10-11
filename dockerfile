@@ -21,7 +21,8 @@ RUN apt-get update && apt-get install -y \
 
 
 
-RUN find / -type f -name 'www.conf'
+# Modifica el archivo www.conf para cambiar el socket a 127.0.0.1:9000
+RUN sed -i 's|listen = /var/run/php/php8.1-fpm.sock|listen = 127.0.0.1:9000|' /usr/local/etc/php-fpm.d/www.conf
 
 # Instala Composer
 COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
