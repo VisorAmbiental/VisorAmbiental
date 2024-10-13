@@ -21,7 +21,6 @@
       ></i>
 
       <a class="m-0 navbar-brand" href="/" :title="appName">
-        <img :src="logo" class="navbar-brand-img h-100" alt="main_logo" />
         <span class="ms-1 font-weight-bold">{{ appName }}</span>
       </a>
     </div>
