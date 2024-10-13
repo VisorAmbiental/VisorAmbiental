@@ -65,6 +65,7 @@ const reportPontForm = ref(null)
 
 onMounted(() => {
   mapboxgl.accessToken = Config.apiKey()
+  console.log("Token de acceso Mapbox:", mapboxgl.accessToken);
   const map = new mapboxgl.Map({
     container: props.mapContainer, // container ID
     style: Config.defaultStyle(), // style URL
