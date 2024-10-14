@@ -19,13 +19,31 @@ RUN apt-get update && apt-get install -y \
     docker-php-ext-install pdo_mysql pdo_pgsql mbstring exif pcntl bcmath gd zip && \
     apt-get clean && rm -rf /var/lib/apt/lists/*
 
+
+#Crear el archivo /var/run/php:
+RUN mkdir -p /var/run/php
+
+
+#Otorgar permisos a /var/run/php
+RUN chown -R www-data:www-data /var/run/php/ && \
+    chmod 775 /var/run/php/
+
+
+#Editar el archivo zz-docker.conf para que apunte al socket Unix en vez de al puerto 9000
+RUN sed -i 's|listen = 9000|listen = /var/run/php/php8.1-fpm.sock|' /usr/local/etc/php-fpm.d/zz-docker.conf
+
+
+#Ejecutar el comando php-fpm para verificar si está corriendo y crear el archivo “www.conf”
+RUN php-fpm
+
+
 # Configurar PHP-FPM para que escuche en el socket Unix
 RUN sed -i 's|listen = .*|listen = /var/run/php/php8.1-fpm.sock|' /usr/local/etc/php-fpm.d/www.conf
+
 
 # Establecer permisos para el socket Unix
 RUN echo "listen.owner = www-data\nlisten.group = www-data\nlisten.mode = 0660" >> /usr/local/etc/php-fpm.d/www.conf
 
-#RUN ls -la /var/run/php/
 
 # Instala Composer
 COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
