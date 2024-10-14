@@ -40,9 +40,7 @@ COPY . .
 
 
 # Copia los archivos compilados desde tu máquina local al contenedor
-COPY public/js /var/www/html/public/js
-COPY public/css /var/www/html/public/css
-COPY public/mix-manifest.json /var/www/html/public/mix-manifest.json
+COPY public /var/www/html/public
 
 # Instala dependencias de Composer sin necesidad de npm
 RUN composer install --no-dev --optimize-autoloader --ignore-platform-reqs
