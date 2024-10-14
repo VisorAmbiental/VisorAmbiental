@@ -33,9 +33,6 @@ RUN chown -R www-data:www-data /var/run/php/ && \
 RUN sed -i 's|listen = 9000|listen = /var/run/php/php8.1-fpm.sock|' /usr/local/etc/php-fpm.d/zz-docker.conf
 
 
-#Ejecutar el comando php-fpm para verificar si está corriendo y crear el archivo “www.conf”
-#RUN php-fpm
-
 
 # Configurar PHP-FPM para que escuche en el socket Unix
 RUN sed -i 's|listen = .*|listen = /var/run/php/php8.1-fpm.sock|' /usr/local/etc/php-fpm.d/www.conf
@@ -54,10 +51,12 @@ WORKDIR /var/www/html
 # Copia los archivos del proyecto
 COPY . .
 
-# Copiar el script wait-for-it
-COPY scripts/wait-for-it.sh /usr/local/bin/wait-for-it.sh
-RUN chmod +x /usr/local/bin/wait-for-it.sh
 
+# Copiar el script wait-for-it
+#COPY scripts/wait-for-it.sh /usr/local/bin/wait-for-it.sh
+#RUN chmod +x /usr/local/bin/wait-for-it.sh
+
+#
 # Instala dependencias de Composer y Node.js
 RUN composer install --no-dev --optimize-autoloader --ignore-platform-reqs && \
     npm install && \
@@ -67,13 +66,6 @@ RUN composer install --no-dev --optimize-autoloader --ignore-platform-reqs && \
 RUN chown -R www-data:www-data /var/www/html/storage /var/www/html/bootstrap/cache /var/www/html/public && \
     chmod -R 775 /var/www/html/storage /var/www/html/bootstrap/cache /var/www/html/public
 
-# Limpiar la caché y configurar Laravel
-#RUN php artisan config:clear && \
-#    php artisan cache:clear && \
-#    php artisan route:clear && \
-#    php artisan view:clear && \
-#    php artisan route:cache && \
-#    php artisan view:cache
 
 # Remover la configuración por defecto de Nginx
 RUN rm /etc/nginx/sites-enabled/default
