@@ -68,12 +68,12 @@ RUN chown -R www-data:www-data /var/www/html/storage /var/www/html/bootstrap/cac
     chmod -R 775 /var/www/html/storage /var/www/html/bootstrap/cache /var/www/html/public
 
 # Limpiar la caché y configurar Laravel
-RUN php artisan config:clear && \
-    php artisan cache:clear && \
-    php artisan route:clear && \
-    php artisan view:clear && \
-    php artisan route:cache && \
-    php artisan view:cache
+#RUN php artisan config:clear && \
+#    php artisan cache:clear && \
+#    php artisan route:clear && \
+#    php artisan view:clear && \
+#    php artisan route:cache && \
+#    php artisan view:cache
 
 # Remover la configuración por defecto de Nginx
 RUN rm /etc/nginx/sites-enabled/default
