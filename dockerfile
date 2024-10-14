@@ -34,7 +34,7 @@ RUN sed -i 's|listen = 9000|listen = /var/run/php/php8.1-fpm.sock|' /usr/local/e
 
 
 #Ejecutar el comando php-fpm para verificar si está corriendo y crear el archivo “www.conf”
-RUN php-fpm
+#RUN php-fpm
 
 
 # Configurar PHP-FPM para que escuche en el socket Unix
