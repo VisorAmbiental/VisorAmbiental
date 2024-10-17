@@ -22,10 +22,10 @@ RUN apt-get update && apt-get install -y \
 
 
 # Crear el directorio de PHP y configurar permisos y PHP-FPM
-RUN mkdir -p /var/run/php && \
+RUN mkdir -p /var/run/php && \ 
     chown -R www-data:www-data /var/run/php && \
     chmod 775 /var/run/php && \
-    #sed -i 's|listen = *|listen = /var/run/php/php8.1-fpm.sock|' /usr/local/etc/php-fpm.d/www.conf && \
+    sed -i 's|listen = 127.0.0.1:9000|listen = /var/run/php/php8.1-fpm.sock|' /usr/local/etc/php-fpm.d/www.conf && \
     echo "listen.owner = www-data\nlisten.group = www-data\nlisten.mode = 0660" >> /usr/local/etc/php-fpm.d/www.conf
 
 RUN sed -i 's|listen = 9000|listen = /var/run/php/php8.1-fpm.sock|' /usr/local/etc/php-fpm.d/zz-docker.conf 
