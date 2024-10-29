@@ -5,9 +5,9 @@ return [
         'ecoregion_layer_colors' => [
             'altos-andes' => '#b0cad9',
             'puna' => '#45a3af',
-            'yungas' => '#f6b5d3',
+            'selvas_de_yungas' => '#f6b5d3',
             'chaco-seco' => '#f07d00',
-            'monte-de-sierras-y-bolsones' => '#fdcd01',
+            'montes-de-sierras-y-bolsones' => '#fdcd01',
             'default' => '#ccc'
         ],
         'statics_layer_sources' => [
