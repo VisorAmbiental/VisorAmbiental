@@ -35,8 +35,6 @@ import PointPopup from '@/Components/Map/PointPopup'
 import { markerStyles } from '@/Utils/Map/Markers'
 import ReportPoint from '@/Components/Map/ReportPoint'
 
-console.log('Config.center:', Config.center, ',', 'Config.zoom:', Config.zoom)
-
 const props = defineProps({
   mapContainer: {
     type: String,
@@ -75,6 +73,7 @@ onMounted(() => {
     zoom: Config.zoom(), // starting zoom
   })
 
+  console.log('Config.center:', Config.center, ',', 'Config.zoom:', Config.zoom)
   map.addControl(new mapboxgl.NavigationControl())
 
   map.on('load', () => {
