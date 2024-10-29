@@ -65,7 +65,7 @@ const reportPontForm = ref(null)
 
 onMounted(() => {
   mapboxgl.accessToken = Config.apiKey()
-  console.log('Token de acceso Mapbox:', mapboxgl.accessToken)
+  console.log('Config.center:', Config.center, ',', 'Config.zoom:', Config.zoom)
   const map = new mapboxgl.Map({
     container: props.mapContainer, // container ID
     style: Config.defaultStyle(), // style URL
@@ -73,7 +73,6 @@ onMounted(() => {
     zoom: Config.zoom(), // starting zoom
   })
 
-  console.log('Config.center:', Config.center, ',', 'Config.zoom:', Config.zoom)
   map.addControl(new mapboxgl.NavigationControl())
 
   map.on('load', () => {
