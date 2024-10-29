@@ -34,7 +34,7 @@ import { loadStaticLayer, StaticLayer } from '@/Utils/Map/FixedLayers/StaticLaye
 import PointPopup from '@/Components/Map/PointPopup'
 import { markerStyles } from '@/Utils/Map/Markers'
 import ReportPoint from '@/Components/Map/ReportPoint'
-
+console.log("Config.center:", Config.center, ",","Config.zoom:", Config.zoom)
 const props = defineProps({
   mapContainer: {
     type: String,
