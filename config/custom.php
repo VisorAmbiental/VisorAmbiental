@@ -12,12 +12,6 @@ return [
         ],
         'statics_layer_sources' => [
             [
-                'id' => 'pipelines',
-                'name' => 'Catastros Mineros',
-                'file' => 'layers/mining.json',
-                'color' => '#990000',
-            ],
-            [
                 'id' => 'mining',
                 'name' => 'Gasoductos',
                 'file' => 'layers/pipelines.json',
