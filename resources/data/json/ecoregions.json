@@ -1,17 +1,17 @@
 {
-    "type": "FeatureCollection",
-    "name": "Salta_Ecorregiones_GJS",
-    "features": [
-        {
-            "type": "Feature",
-            "properties": {
-              "id": "altos-andes",
-              "Ecorregion": "Altos Andes",
-              "Hectareas": 1985054.126
-            },
-            "geometry": {
-              "type": "MultiPolygon",
-              "coordinates": [
+  "type": "FeatureCollection",
+  "name": "Salta_Ecorregiones_GJS",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "altos-andes",
+        "Ecorregion": "Altos Andes",
+        "Hectareas": 1985054.126
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
                 [
                   [
                     [
@@ -13748,19 +13748,19 @@
                     ]
                   ]
                 ]
-              ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-              "id": "chaco-seco",
-              "Ecorregion": "Chaco Seco",
-              "Hectareas": 379793.658
-            },
-            "geometry": {
-              "type": "MultiPolygon",
-              "coordinates": [
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "chaco-seco",
+        "Ecorregion": "Chaco Seco",
+        "Hectareas": 379793.658
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
                 [
                   [
                     [
@@ -26925,19 +26925,19 @@
                     ]
                   ]
                 ]
-              ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-              "id": "selvas_de_yungas",
-              "Ecorregion": "Selvas de Yungas",
-              "Hectareas": 1228850.597
-            },
-            "geometry": {
-              "type": "MultiPolygon",
-              "coordinates": [
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "selvas_de_yungas",
+        "Ecorregion": "Selvas de Yungas",
+        "Hectareas": 1228850.597
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
                 [
                   [
                     [
@@ -46134,19 +46134,19 @@
                     ]
                   ]
                 ]
-              ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-              "id":"montes-de-sierras-y-bolsones",
-              "Ecorregion": "Montes de Sierras y Bolsones",
-              "Hectareas": 113909.169
-            },
-            "geometry": {
-              "type": "MultiPolygon",
-              "coordinates": [
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id":"montes-de-sierras-y-bolsones",
+        "Ecorregion": "Montes de Sierras y Bolsones",
+        "Hectareas": 113909.169
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
                 [
                   [
                     [
@@ -46499,19 +46499,19 @@
                     ]
                   ]
                 ]
-              ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-              "id":"puna",
-              "Ecorregion": "Puna",
-              "Hectareas": 2155689.614
-            },
-            "geometry": {
-              "type": "MultiPolygon",
-              "coordinates": [
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id":"puna",
+        "Ecorregion": "Puna",
+        "Hectareas": 2155689.614
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
                 [
                   [
                     [
@@ -58094,8 +58094,8 @@
                     ]
                   ]
                 ]
-              ]
-            }
-          }
-    ]
+        ]
+      }
+    }
+  ]
 }

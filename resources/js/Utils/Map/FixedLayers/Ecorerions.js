@@ -1,4 +1,4 @@
-import ecoregions from '../../../../data/json/ecoregions-min.json'
+import ecoregions from '../../../../data/json/ecoregions.json'
 
 const Ecoregions = {
   id: 'ecoregions',
@@ -21,11 +21,11 @@ const Ecoregions = {
           '#b0cad9',
           'puna',
           '#45a3af',
-          'yungas',
+          'selvas_de_yungas',
           '#f6b5d3',
           'chaco-seco',
           '#f07d00',
-          'monte-de-sierras-y-bolsones',
+          'montes-de-sierras-y-bolsones',
           '#fdcd01',
           /* other */ '#ccc',
         ],
