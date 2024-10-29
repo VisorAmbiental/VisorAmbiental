@@ -16,6 +16,6 @@ const props = defineProps({
 })
 
 const getUrl = computed(() => {
-  return `https://api.mapbox.com/styles/v1/mapbox/streets-v11/static/pin-l-embassy+f74e4e(${props.longitude},${props.latitude})/${props.longitude},${props.latitude},5.5/600x400?access_token=${Config.apiKey()}`
+  return `https://api.mapbox.com/styles/v1/mapbox/streets-v11/static/pin-l-embassy+f74e4e(${props.longitude},${props.latitude})/${props.longitude},${props.latitude},6.5/600x400?access_token=${Config.apiKey()}`
 })
 </script>
