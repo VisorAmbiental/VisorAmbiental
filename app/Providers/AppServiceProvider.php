@@ -5,6 +5,9 @@ namespace App\Providers;
 use App\Http\Resources\PointAsGeoJsonFeatureCollection;
 use Illuminate\Support\Facades\URL;
 use Illuminate\Support\ServiceProvider;
+use Illuminate\Support\Facades\Schema;
+use Illuminate\Database\Schema\Blueprint;
+
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -31,5 +34,9 @@ class AppServiceProvider extends ServiceProvider
 
         //
         PointAsGeoJsonFeatureCollection::withoutWrapping();
+
+        Schema::table('points', function (Blueprint $table) {
+            $table->point('location')->change();
+        });
     }
 }
