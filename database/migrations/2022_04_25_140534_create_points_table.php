@@ -31,7 +31,7 @@ return new class extends Migration
                 ->constrained('subcategories');
             $table->foreignId('ecoregion_id')
                 ->constrained('ecoregions');
-            $table->geometry('location');
+            $table->point('location');
             $table->unsignedBigInteger('taxa')
                 ->nullable();
             $table->date('date')
