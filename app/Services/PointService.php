@@ -29,8 +29,7 @@ class PointService
 
     public function createPoint($data, $user)
     {
-        //$data['location'] = new PointSpatial($data['latitude'], $data['longitude']);
-        $data['location'] = DB::raw("ST_SetSRID(ST_MakePoint({$data['longitude']}, {$data['latitude']}), 4326)::geography");
+        $data['location'] = new PointSpatial($data['latitude'], $data['longitude']);
         $data['user_id'] = $user->id;
 
         // Save first observation
@@ -46,8 +45,7 @@ class PointService
 
     public function updatePoint(Point $point, $data)
     {
-        //$data['location'] = new PointSpatial($data['latitude'], $data['longitude']);
-        $data['location'] = DB::raw("ST_SetSRID(ST_MakePoint({$data['longitude']}, {$data['latitude']}), 4326)::geography");
+        $data['location'] = new PointSpatial($data['latitude'], $data['longitude']);
         $point->update($data);
     }
 
