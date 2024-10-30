@@ -9,7 +9,6 @@ use App\Jobs\InsertMissingPointObservations;
 use MatanYadaev\EloquentSpatial\Objects\Point as PointSpatial;
 use Illuminate\Support\Facades\DB;
 
-
 class PointService
 {
     public function get($search = [])

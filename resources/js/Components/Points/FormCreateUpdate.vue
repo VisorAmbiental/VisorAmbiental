@@ -235,7 +235,6 @@ const props = defineProps({
 const observations = ref([])
 const subCategoriesSelected = ref([])
 
-
 onMounted(() => {
   observations.value = props.point ? props.point.observations : []
   updateSubcategories(props.categoryIdDefault)
