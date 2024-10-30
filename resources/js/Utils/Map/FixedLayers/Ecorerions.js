@@ -21,7 +21,7 @@ const Ecoregions = {
           '#b0cad9',
           'puna',
           '#45a3af',
-          'selvas_de_yungas',
+          'selvas-de-yungas',
           '#f6b5d3',
           'chaco-seco',
           '#f07d00',
