@@ -210,6 +210,7 @@
     </div>
   </form>
 </template>
+
 <script setup>
 import { Link, useForm } from '@inertiajs/inertia-vue3'
 import JetLabel from '@/Jetstream/Label'
@@ -220,7 +221,7 @@ import ModalCreate from '../../Components/Observations/ModalCreate'
 import ShowTable from '../../Components/Observations/ShowTable'
 import { onMounted, ref } from 'vue'
 import ShowPoint from './ShowPoint'
-const observations = ref([])
+
 const props = defineProps({
   point: Object,
   geometries: Object,
@@ -231,7 +232,9 @@ const props = defineProps({
   categoryIdDefault: Number,
 })
 
+const observations = ref([])
 const subCategoriesSelected = ref([])
+
 
 onMounted(() => {
   observations.value = props.point ? props.point.observations : []
