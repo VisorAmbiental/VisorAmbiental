@@ -7,7 +7,7 @@
     "require": {
         "php": "^8.0.2",
         "deployer/deployer": "^7.0",
-        "doctrine/dbal": "*",
+        "doctrine/dbal": "^3.0",
         "glhd/gretel": "^1.5",
         "guzzlehttp/guzzle": "^7.2",
         "inertiajs/inertia-laravel": "^0.5.2",
