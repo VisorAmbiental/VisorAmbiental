@@ -15,6 +15,19 @@ class PointAsGeoJsonFeature extends JsonResource
      */
     public function toArray($request)
     {
+        $longitude = null;
+        $latitude = null;
+
+        if ($this->location instanceof \MatanYadaev\EloquentSpatial\Objects\Point) {
+            $longitude = $this->location->longitude;
+            $latitude = $this->location->latitude;
+        } elseif (is_string($this->location)) {
+            // En caso de que sea un string, intenta extraer los valores de longitud y latitud
+            preg_match('/POINT\(([-\d.]+) ([-\d.]+)\)/', $this->location, $matches);
+            $longitude = $matches[1] ?? null;
+            $latitude = $matches[2] ?? null;
+        }
+
         return [
             'type' => 'Feature',
             'geometry' => [
