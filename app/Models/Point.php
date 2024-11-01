@@ -146,7 +146,7 @@ class Point extends Model
         } elseif (is_string($this->location)) {
             // Intenta deserializar el valor si está almacenado como string en la base de datos
             $coordinates = $this->parseCoordinates($this->location);
-            echo $coordinates;
+            print_r($coordinates);
             return $coordinates[1] ?? null;
         }
         return null;
