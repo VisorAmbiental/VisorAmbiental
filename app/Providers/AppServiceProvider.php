@@ -33,9 +33,5 @@ class AppServiceProvider extends ServiceProvider
 
         //
         PointAsGeoJsonFeatureCollection::withoutWrapping();
-
-        Schema::table('points', function (Blueprint $table) {
-            $table->point('location')->change();
-        });
     }
 }
