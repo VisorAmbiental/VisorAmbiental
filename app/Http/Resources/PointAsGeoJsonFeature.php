@@ -18,18 +18,20 @@ class PointAsGeoJsonFeature extends JsonResource
     {
         $longitude = null;
         $latitude = null;
-
+        // Si es un objeto Point, obtenemos directamente las coordenadas
         if ($this->location instanceof Point) {
             $longitude = $this->location->longitude;
             $latitude = $this->location->latitude;
+        // Si es una cadena, verifica si es WKT o WKB y convierte en coordenadas
         } elseif (is_string($this->location)) {
             if (preg_match('/^POINT\(([-\d.]+) ([-\d.]+)\)$/', $this->location, $matches)) {
                 $longitude = (float) $matches[1];
                 $latitude = (float) $matches[2];
             } else {
-                $point = Point::fromWKB($this->location);
-                $longitude = $point->longitude;
-                $latitude = $point->latitude;
+                // Si es WKB (Well-Known Binary en hexadecimal), intenta convertirlo
+                $coord = $this->convertWKBToPoint($this->location);
+                $longitude = $coord['longitude'];
+                $latitude = $$coord['latitude'];
             }
         }
 
@@ -59,6 +61,28 @@ class PointAsGeoJsonFeature extends JsonResource
                 'subcategory' => new SubcategoryResource($this->whenLoaded('subcategory')),
                 'readonly' => Auth::check(),
             ],
+        ];
+    }
+
+
+    /**
+     * Convierte un valor WKB en hexadecimal a coordenadas de longitud y latitud.
+     *
+     * @param string $wkb
+     * @return array
+     */
+    private function convertWKBToPoint($wkb)
+    {
+        // Convierte de hexadecimal a binario
+        $wkb = hex2bin($wkb);
+
+        // Extrae los valores binarios de longitud y latitud (punto flotante de 64 bits)
+        $longitude = unpack('d', substr($wkb, 9, 8))[1];
+        $latitude = unpack('d', substr($wkb, 17, 8))[1];
+
+        return [
+            'longitude' => $longitude,
+            'latitude' => $latitude,
         ];
     }
 }
