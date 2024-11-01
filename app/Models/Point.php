@@ -139,22 +139,54 @@ class Point extends Model
         );
     }
 
+    private function extractLatitude()
+    {
+        if ($this->location instanceof SpatialPoint) {
+            return $this->location->latitude;
+        } elseif (is_string($this->location)) {
+            // Intenta deserializar el valor si está almacenado como string en la base de datos
+            $coordinates = $this->parseCoordinates($this->location);
+            return $coordinates[1] ?? null;
+        }
+        return null;
+    }
+
     public function latitude(): Attribute
     {
-
-
         return Attribute::make(
-            get: fn () => $this->location ? $this->location->latitude : null
+            get: fn () => $this->extractLatitude()
         );
+    }
+
+
+
+    private function extractLongitude()
+    {
+        if ($this->location instanceof SpatialPoint) {
+            return $this->location->longitude;
+        } elseif (is_string($this->location)) {
+            // Intenta deserializar el valor si está almacenado como string en la base de datos
+            $coordinates = $this->parseCoordinates($this->location);
+            return $coordinates[0] ?? null;
+        }
+        return null;
     }
 
     public function longitude(): Attribute
     {
-
         return Attribute::make(
-            get: fn () => $this->location ? $this->location->longitude : null
+            get: fn () => $this->extractLongitude()
         );
     }
+
+
+    private function parseCoordinates($location)
+    {
+        // Deserializa el valor, asumiendo que el formato es "POINT(longitude latitude)"
+        preg_match('/POINT\(([-\d.]+) ([-\d.]+)\)/', $location, $matches);
+        return [$matches[1] ?? null, $matches[2] ?? null];
+    }
+
 
     public function wasApproved(): Attribute
     {
