@@ -26,8 +26,6 @@ class PointAsGeoJsonFeature extends JsonResource
             preg_match('/POINT\(([-\d.]+) ([-\d.]+)\)/', $this->location, $matches);
             $longitude = $matches[1] ?? null;
             $latitude = $matches[2] ?? null;
-
-            echo "<script>console.log('" . addslashes($longitude, $latitude) . "');</script>";
         }
 
         return [
