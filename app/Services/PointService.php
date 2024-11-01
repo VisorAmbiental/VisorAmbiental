@@ -7,7 +7,6 @@ use App\Models\User;
 use Illuminate\Support\Collection;
 use App\Jobs\InsertMissingPointObservations;
 use MatanYadaev\EloquentSpatial\Objects\Point as PointSpatial;
-use Illuminate\Support\Facades\DB;
 
 class PointService
 {
@@ -29,7 +28,7 @@ class PointService
 
     public function createPoint($data, $user)
     {
-        $data['location'] = DB::raw("ST_GeomFromText('POINT({$data['longitude']} {$data['latitude']})', 4326)");
+        $data['location'] = new PointSpatial($data['latitude'], $data['longitude']);
         $data['user_id'] = $user->id;
 
         // Save first observation
@@ -45,7 +44,7 @@ class PointService
 
     public function updatePoint(Point $point, $data)
     {
-        $data['location'] = DB::raw("ST_GeomFromText('POINT({$data['longitude']} {$data['latitude']})', 4326)");
+        $data['location'] = new PointSpatial($data['latitude'], $data['longitude']);
         $point->update($data);
     }
 

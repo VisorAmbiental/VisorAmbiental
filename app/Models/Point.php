@@ -34,7 +34,7 @@ class Point extends Model
     ];
 
     protected $casts = [
-        'location' => SpatialPoint::class,
+        'location' => \App\Casts\GeometryCast::class,
     ];
 
     public array $fieldsForHash = [
