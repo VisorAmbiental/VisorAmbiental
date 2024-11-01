@@ -7,7 +7,6 @@ use App\Models\User;
 use Illuminate\Support\Collection;
 use App\Jobs\InsertMissingPointObservations;
 use MatanYadaev\EloquentSpatial\Objects\Point as PointSpatial;
-use Illuminate\Support\Facades\DB;
 
 class PointService
 {

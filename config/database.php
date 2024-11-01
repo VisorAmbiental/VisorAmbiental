@@ -46,7 +46,7 @@ return [
         'mysql' => [
             'driver' => 'mysql',
             'url' => env('DATABASE_URL'),
-            'host' => env('DB_HOST', ''),
+            'host' => env('DB_HOST', 'dpg-csg0bjrv2p9s73fkm76g-a'),
             'port' => env('DB_PORT', '3306'),
             'database' => env('DB_DATABASE', ''),
             'username' => env('DB_USERNAME', ''),
@@ -65,10 +65,10 @@ return [
 
         'pgsql' => [
             'driver' => 'pgsql',
-            'host' => env('DB_HOST', ''),
+            'host' => env('DB_HOST', 'dpg-csg0bjrv2p9s73fkm76g-a'),
             'port' => env('DB_PORT', '5432'),
-            'database' => env('DB_DATABASE', ''),
-            'username' => env('DB_USERNAME', ''),
+            'database' => env('DB_DATABASE', 'visordb'),
+            'username' => env('DB_USERNAME', 'visorambiental'),
             'password' => env('DB_PASSWORD', ''),
             'charset' => 'utf8',
             'prefix' => '',
