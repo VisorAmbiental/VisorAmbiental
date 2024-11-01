@@ -8,6 +8,7 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use MatanYadaev\EloquentSpatial\Objects\Point as SpatialPoint;
 use MatanYadaev\EloquentSpatial\SpatialBuilder;
+use Illuminate\Support\Facades\Log;
 
 class Point extends Model
 {
@@ -141,6 +142,7 @@ class Point extends Model
 
     private function extractLatitude()
     {
+        Log::debug('Location raw value', ['location' => $this->location]);
         if ($this->location instanceof SpatialPoint) {
             return $this->location->latitude;
         } elseif (is_string($this->location)) {
