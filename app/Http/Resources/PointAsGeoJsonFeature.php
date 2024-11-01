@@ -32,7 +32,7 @@ class PointAsGeoJsonFeature extends JsonResource
                 // Si es WKB (Well-Known Binary en hexadecimal), intenta convertirlo
                 $coord = $this->convertWKBToPoint($this->location);
                 $longitude = $coord['longitude'];
-                $latitude = $$coord['latitude'];
+                $latitude = $coord['latitude'];
             }
         }
 
