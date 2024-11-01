@@ -65,7 +65,6 @@ return [
 
         'pgsql' => [
             'driver' => 'pgsql',
-            'url' => env('DATABASE_URL'),
             'host' => env('DB_HOST', ''),
             'port' => env('DB_PORT', ''),
             'database' => env('DB_DATABASE', ''),
