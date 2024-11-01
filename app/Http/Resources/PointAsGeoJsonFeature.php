@@ -4,6 +4,7 @@ namespace App\Http\Resources;
 
 use Illuminate\Http\Resources\Json\JsonResource;
 use Illuminate\Support\Facades\Auth;
+use MatanYadaev\EloquentSpatial\Objects\Point;
 
 class PointAsGeoJsonFeature extends JsonResource
 {
@@ -18,14 +19,18 @@ class PointAsGeoJsonFeature extends JsonResource
         $longitude = null;
         $latitude = null;
 
-        if ($this->location instanceof \MatanYadaev\EloquentSpatial\Objects\Point) {
+        if ($this->location instanceof Point) {
             $longitude = $this->location->longitude;
             $latitude = $this->location->latitude;
         } elseif (is_string($this->location)) {
-            // En caso de que sea un string, intenta extraer los valores de longitud y latitud
-            preg_match('/POINT\(([-\d.]+) ([-\d.]+)\)/', $this->location, $matches);
-            $longitude = $matches[1] ?? null;
-            $latitude = $matches[2] ?? null;
+            if (preg_match('/^POINT\(([-\d.]+) ([-\d.]+)\)$/', $this->location, $matches)) {
+                $longitude = (float) $matches[1];
+                $latitude = (float) $matches[2];
+            } else {
+                $point = Point::fromWKB($this->location);
+                $longitude = $point->longitude;
+                $latitude = $point->latitude;
+            }
         }
 
         return [
