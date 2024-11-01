@@ -142,7 +142,7 @@ class Point extends Model
 
     private function extractLatitude()
     {
-        Log::debug('Location raw value', ['location' => $this->location]);
+        //Log::debug('Location raw value', ['location' => $this->location]);
         if ($this->location instanceof SpatialPoint) {
             return $this->location->latitude;
         } elseif (is_string($this->location)) {

@@ -5,6 +5,7 @@ namespace App\Http\Resources;
 use Illuminate\Http\Resources\Json\JsonResource;
 use Illuminate\Support\Facades\Auth;
 use MatanYadaev\EloquentSpatial\Objects\Point;
+use Illuminate\Support\Facades\Log;
 
 class PointAsGeoJsonFeature extends JsonResource
 {
@@ -73,12 +74,15 @@ class PointAsGeoJsonFeature extends JsonResource
      */
     private function convertWKBToPoint($wkb)
     {
+
         // Convierte de hexadecimal a binario
         $wkb = hex2bin($wkb);
 
         // Extrae los valores binarios de longitud y latitud (punto flotante de 64 bits)
         $longitude = unpack('d', substr($wkb, 9, 8))[1];
         $latitude = unpack('d', substr($wkb, 17, 8))[1];
+
+        Log::debug('Location raw value', [$longitude, $latitude]);
 
         return [
             'longitude' => $longitude,
