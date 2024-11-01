@@ -33,8 +33,8 @@ class PointAsGeoJsonFeature extends JsonResource
             'geometry' => [
                 'type' => 'Point',
                 'coordinates' => [
-                    $this->location->longitude,
-                    $this->location->latitude
+                    $longitude,
+                    $latitude
                 ],
             ],
             'properties' => [
