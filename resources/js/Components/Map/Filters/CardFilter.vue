@@ -1,7 +1,7 @@
 <template>
   <div class="pt-2 mx-3 mt-2">
     <div class="card">
-      <div class="card-header fs-6 p-3 pb-2">
+      <div class="card-header fs-6 p-2 pb-0">
         <slot name="CardHeader"></slot>
       </div>
       <div class="card-body p-2">
