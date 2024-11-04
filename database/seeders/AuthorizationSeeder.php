@@ -19,7 +19,7 @@ class AuthorizationSeeder extends Seeder
     public function run()
     {
         // Recuperar buffer de user
-        $usersBackup = \App\User::with(['roles'])
+        $usersBackup = \App\Models\User::with(['roles'])
             ->get();
 
         // Recuperar buffer de roles
@@ -29,7 +29,8 @@ class AuthorizationSeeder extends Seeder
         $permissionsBackup = Permission::with('roles')->get();
 
         Schema::disableForeignKeyConstraints();
-        \Eloquent::unguard();
+        \Illuminate\Database\Eloquent\Model::unguard();
+
 
         // Vaciar tablas de librería
         foreach (config('permission.table_names') as $table) {
@@ -38,7 +39,7 @@ class AuthorizationSeeder extends Seeder
         }
 
         // Vaciar permisos de usuarios
-        foreach (\App\User::all() as $user) {
+        foreach (\App\Models\User::all() as $user) {
             $user->roles()->detach();
         }
 
@@ -46,11 +47,12 @@ class AuthorizationSeeder extends Seeder
         app()[PermissionRegistrar::class]->forgetCachedPermissions();
 
         $this->call([
-            RolesSeeder::class,
-            PermissionsSeeder::class,
+            RoleSeeder::class,
+            PermissionSeeder::class,
         ]);
 
-        \Eloquent::reguard();
+        \Illuminate\Database\Eloquent\Model::reguard();
+
         Schema::enableForeignKeyConstraints();
 
         // Distinguir nuevos permisos del seeder
@@ -117,7 +119,7 @@ class AuthorizationSeeder extends Seeder
         }
 
         // Asignar roles nuevamente
-        foreach (\App\User::all() as $user) {
+        foreach (\App\Models\User::all() as $user) {
 
             // Coincidir usuario actual con usuario de backup
             $userInBackup = $usersBackup->first(function ($backupUser) use ($user){

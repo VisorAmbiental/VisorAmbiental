@@ -1,6 +1,6 @@
 <template>
   <div
-    class="w-auto h-auto collapse navbar-collapse max-height-vh-100 h-100"
+    class="w-auto h-80 collapse navbar-collapse max-height-vh-80 h-100"
     id="sidenav-collapse-main"
   >
     <ul class="navbar-nav">
