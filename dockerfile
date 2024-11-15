@@ -27,6 +27,8 @@ WORKDIR /var/www/html
 # Copia los archivos del proyecto
 COPY . .
 
+RUN sed -i 's|listen = /var/run/php/php8.1-fpm.sock|listen = 9000|' /usr/local/etc/php-fpm.d/www.conf
+
 # Instala dependencias de Composer
 RUN composer install --no-dev --optimize-autoloader --ignore-platform-reqs
 
