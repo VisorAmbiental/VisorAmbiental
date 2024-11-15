@@ -30,7 +30,7 @@ services:
             - "traefik.http.routers.laravel.rule=Host(`visorambiental.portalinecoa.com`)"
             - "traefik.http.routers.laravel.entrypoints=websecure"
             - "traefik.http.routers.laravel.tls.certresolver=letsencrypt"
-            - "traefik.http.services.laravel.loadbalancer.server.port=3000"
+            - "traefik.http.services.laravel.loadbalancer.server.port=80"
     mysql:
         image: 'mysql/mysql-server:8.0'
         ports:
