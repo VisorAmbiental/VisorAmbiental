@@ -17,6 +17,7 @@ services:
       - '.:/var/www/html'
     networks:
       - sail
+      - dokploy-network
     depends_on:
       - mysql
       - redis
@@ -108,6 +109,7 @@ services:
       - "traefik-certificates:/letsencrypt"
     networks:
       - sail
+      - dokploy-network
 
 networks:
   sail:
