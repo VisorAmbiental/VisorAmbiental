@@ -114,6 +114,8 @@ services:
 networks:
   sail:
     driver: bridge
+  dokploy-network:
+    external: true  
 
 volumes:
   sail-mysql:
