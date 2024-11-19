@@ -27,7 +27,7 @@ WORKDIR /var/www/html
 # Copia los archivos del proyecto
 COPY . .
 
-RUN RUN sed -i 's/^listen = .*/listen = 0.0.0.0:9000/' /usr/local/etc/php-fpm.d/www.conf
+RUN sed -i 's/^listen = .*/listen = 0.0.0.0:9000/' /usr/local/etc/php-fpm.d/www.conf
 
 # Instala dependencias de Composer
 RUN composer install --no-dev --optimize-autoloader --ignore-platform-reqs
