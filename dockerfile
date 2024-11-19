@@ -37,7 +37,7 @@ RUN chown -R www-data:www-data /var/www/html/storage /var/www/html/bootstrap/cac
     chmod -R 775 /var/www/html/storage /var/www/html/bootstrap/cache /var/www/html/public
 
 # Exponer el puerto para Nginx
-EXPOSE 9000
+EXPOSE 80
 
 # Ejecutar migraciones y luego iniciar Nginx y PHP-FPM
   CMD ["php-fpm"]
