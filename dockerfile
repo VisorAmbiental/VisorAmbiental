@@ -27,6 +27,13 @@ WORKDIR /var/www/html
 # Copia los archivos del proyecto
 COPY . .
 
+# Crea un archivo de logs
+RUN mkdir -p /var/log \
+    touch /var/log/php-fpm.log \
+    chown www-data:www-data /var/log/php-fpm.log \
+    chmod 644 /var/log/php-fpm.log
+
+
 RUN sed -i 's/^listen = .*/listen = 0.0.0.0:9000/' /usr/local/etc/php-fpm.d/www.conf
 
 # Instala dependencias de Composer
