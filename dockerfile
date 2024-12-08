@@ -66,11 +66,11 @@ RUN sed -i 's|listen = /var/run/php/php8.1-fpm.sock|listen = 127.0.0.1:9000|' /u
 
 # Asegúrate de que el directorio 'storage' tiene los permisos correctos
 RUN chown -R www-data:www-data /var/www/html/storage && \
-    chmod -R 775 /var/www/html/storage
+    chmod -R 777 /var/www/html/storage
 
 # Asegura los permisos para los archivos de logs dentro de 'storage/logs'
 RUN chown -R www-data:www-data /var/www/html/storage/logs && \
-    chmod -R 775 /var/www/html/storage/logs
+    chmod -R 777 /var/www/html/storage/logs
 
 
 # Remover la configuración por defecto de Nginx
