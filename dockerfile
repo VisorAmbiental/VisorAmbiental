@@ -58,11 +58,12 @@ RUN mkdir -p /var/log \
 RUN composer install --no-dev --optimize-autoloader --ignore-platform-reqs
 
 # Da permisos a las carpetas de almacenamiento y cache
-RUN chown -R www-data:www-data /var/www/html/storage /var/www/html/bootstrap/cache /var/www/html/public && \
+RUN chown -R www-data:www-data /var/www/html/storage /var/www/html/bootstrap/cache /var/www/html/public  /var/www/html/storage/logs && \
 RUN sed -i 's|listen = /var/run/php/php8.1-fpm.sock|listen = 127.0.0.1:9000|' /usr/local/etc/php-fpm.d/www.conf &&\
-    chmod -R 775 /var/www/html/storage /var/www/html/bootstrap/cache /var/www/html/public
+    chmod -R 775 /var/www/html/storage /var/www/html/bootstrap/cache /var/www/html/public /var/www/html/storage/logs
 
 RUN sed -i 's|listen = /var/run/php/php8.1-fpm.sock|listen = 127.0.0.1:9000|' /usr/local/etc/php-fpm.d/zz-docker.conf
+
 
 
 # Remover la configuración por defecto de Nginx
