@@ -1601,3 +1601,612 @@
 2024-12-08 18:21:47,453 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
 2024-12-08 18:21:49,958 INFO exited: nginx (exit status 1; not expected)
 2024-12-08 18:21:50,961 INFO spawned: 'nginx' with pid 1601
+2024-12-08 18:21:51,989 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:21:53,493 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:21:54,498 INFO spawned: 'nginx' with pid 1602
+2024-12-08 18:21:55,519 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:21:58,025 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:21:59,030 INFO spawned: 'nginx' with pid 1603
+2024-12-08 18:22:00,053 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:22:01,580 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:22:02,584 INFO spawned: 'nginx' with pid 1604
+2024-12-08 18:22:03,693 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:22:06,197 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:22:07,202 INFO spawned: 'nginx' with pid 1611
+2024-12-08 18:22:08,231 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:22:10,737 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:22:11,740 INFO spawned: 'nginx' with pid 1612
+2024-12-08 18:22:12,762 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:22:14,265 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:22:15,275 INFO spawned: 'nginx' with pid 1613
+2024-12-08 18:22:16,320 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:22:18,825 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:22:19,829 INFO spawned: 'nginx' with pid 1614
+2024-12-08 18:22:20,856 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:22:23,360 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:22:24,362 INFO spawned: 'nginx' with pid 1615
+2024-12-08 18:22:25,383 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:22:27,888 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:22:28,892 INFO spawned: 'nginx' with pid 1616
+2024-12-08 18:22:29,915 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:22:32,419 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:22:33,422 INFO spawned: 'nginx' with pid 1617
+2024-12-08 18:22:34,448 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:22:36,952 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:22:37,955 INFO spawned: 'nginx' with pid 1624
+2024-12-08 18:22:38,982 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:22:41,487 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:22:42,490 INFO spawned: 'nginx' with pid 1625
+2024-12-08 18:22:43,514 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:22:46,020 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:22:47,025 INFO spawned: 'nginx' with pid 1626
+2024-12-08 18:22:48,053 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:22:50,558 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:22:51,561 INFO spawned: 'nginx' with pid 1627
+2024-12-08 18:22:52,621 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:22:55,127 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:22:56,130 INFO spawned: 'nginx' with pid 1628
+2024-12-08 18:22:57,153 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:22:59,657 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:23:00,661 INFO spawned: 'nginx' with pid 1629
+2024-12-08 18:23:01,686 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:23:03,190 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:23:04,195 INFO spawned: 'nginx' with pid 1630
+2024-12-08 18:23:05,228 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:23:07,733 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:23:08,737 INFO spawned: 'nginx' with pid 1637
+2024-12-08 18:23:09,761 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:23:11,264 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:23:11,268 INFO spawned: 'nginx' with pid 1638
+2024-12-08 18:23:12,334 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:23:14,841 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:23:15,846 INFO spawned: 'nginx' with pid 1639
+2024-12-08 18:23:16,869 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:23:19,374 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:23:20,378 INFO spawned: 'nginx' with pid 1640
+2024-12-08 18:23:21,408 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:23:23,912 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:23:24,915 INFO spawned: 'nginx' with pid 1641
+2024-12-08 18:23:25,960 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:23:28,466 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:23:29,470 INFO spawned: 'nginx' with pid 1642
+2024-12-08 18:23:30,492 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:23:32,997 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:23:34,003 INFO spawned: 'nginx' with pid 1643
+2024-12-08 18:23:35,032 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:23:37,537 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:23:38,540 INFO spawned: 'nginx' with pid 1650
+2024-12-08 18:23:39,560 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:23:42,063 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:23:43,066 INFO spawned: 'nginx' with pid 1651
+2024-12-08 18:23:44,087 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:23:46,597 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:23:47,601 INFO spawned: 'nginx' with pid 1652
+2024-12-08 18:23:48,665 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:23:51,171 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:23:52,174 INFO spawned: 'nginx' with pid 1653
+2024-12-08 18:23:53,209 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:23:55,714 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:23:56,717 INFO spawned: 'nginx' with pid 1654
+2024-12-08 18:23:57,741 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:24:00,246 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:24:01,249 INFO spawned: 'nginx' with pid 1655
+2024-12-08 18:24:02,292 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:24:04,797 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:24:05,802 INFO spawned: 'nginx' with pid 1656
+2024-12-08 18:24:06,832 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:24:08,344 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:24:08,347 INFO spawned: 'nginx' with pid 1663
+2024-12-08 18:24:09,386 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:24:10,889 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:24:11,892 INFO spawned: 'nginx' with pid 1664
+2024-12-08 18:24:12,914 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:24:15,418 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:24:16,424 INFO spawned: 'nginx' with pid 1665
+2024-12-08 18:24:17,470 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:24:18,976 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:24:18,982 INFO spawned: 'nginx' with pid 1666
+2024-12-08 18:24:20,033 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:24:21,540 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:24:22,544 INFO spawned: 'nginx' with pid 1667
+2024-12-08 18:24:23,579 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:24:26,084 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:24:27,087 INFO spawned: 'nginx' with pid 1668
+2024-12-08 18:24:28,110 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:24:30,616 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:24:31,619 INFO spawned: 'nginx' with pid 1669
+2024-12-08 18:24:32,648 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:24:35,152 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:24:36,155 INFO spawned: 'nginx' with pid 1670
+2024-12-08 18:24:37,180 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:24:39,685 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:24:40,690 INFO spawned: 'nginx' with pid 1677
+2024-12-08 18:24:41,721 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:24:44,228 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:24:45,231 INFO spawned: 'nginx' with pid 1678
+2024-12-08 18:24:46,254 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:24:48,760 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:24:49,764 INFO spawned: 'nginx' with pid 1679
+2024-12-08 18:24:50,793 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:24:53,298 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:24:54,301 INFO spawned: 'nginx' with pid 1680
+2024-12-08 18:24:55,324 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:24:57,828 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:24:58,832 INFO spawned: 'nginx' with pid 1681
+2024-12-08 18:24:59,855 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:25:01,366 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:25:02,371 INFO spawned: 'nginx' with pid 1682
+2024-12-08 18:25:03,409 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:25:05,914 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:25:06,919 INFO spawned: 'nginx' with pid 1689
+2024-12-08 18:25:07,992 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:25:10,497 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:25:11,501 INFO spawned: 'nginx' with pid 1690
+2024-12-08 18:25:12,557 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:25:15,061 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:25:16,065 INFO spawned: 'nginx' with pid 1691
+2024-12-08 18:25:17,091 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:25:19,596 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:25:20,601 INFO spawned: 'nginx' with pid 1692
+2024-12-08 18:25:21,628 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:25:24,132 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:25:25,139 INFO spawned: 'nginx' with pid 1693
+2024-12-08 18:25:26,183 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:25:28,688 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:25:29,694 INFO spawned: 'nginx' with pid 1694
+2024-12-08 18:25:30,722 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:25:33,227 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:25:34,232 INFO spawned: 'nginx' with pid 1695
+2024-12-08 18:25:35,255 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:25:37,759 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:25:38,763 INFO spawned: 'nginx' with pid 1702
+2024-12-08 18:25:39,792 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:25:42,297 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:25:43,302 INFO spawned: 'nginx' with pid 1703
+2024-12-08 18:25:44,326 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:25:46,831 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:25:47,835 INFO spawned: 'nginx' with pid 1704
+2024-12-08 18:25:48,860 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:25:51,366 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:25:52,371 INFO spawned: 'nginx' with pid 1705
+2024-12-08 18:25:53,394 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:25:55,899 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:25:56,904 INFO spawned: 'nginx' with pid 1706
+2024-12-08 18:25:57,924 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:26:00,429 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:26:01,433 INFO spawned: 'nginx' with pid 1707
+2024-12-08 18:26:02,461 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:26:04,967 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:26:05,970 INFO spawned: 'nginx' with pid 1708
+2024-12-08 18:26:06,992 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:26:09,496 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:26:10,501 INFO spawned: 'nginx' with pid 1715
+2024-12-08 18:26:11,558 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:26:14,064 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:26:15,068 INFO spawned: 'nginx' with pid 1716
+2024-12-08 18:26:16,092 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:26:18,597 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:26:19,602 INFO spawned: 'nginx' with pid 1717
+2024-12-08 18:26:20,627 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:26:23,132 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:26:24,136 INFO spawned: 'nginx' with pid 1718
+2024-12-08 18:26:25,157 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:26:27,662 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:26:28,665 INFO spawned: 'nginx' with pid 1719
+2024-12-08 18:26:29,685 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:26:31,189 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:26:32,192 INFO spawned: 'nginx' with pid 1720
+2024-12-08 18:26:33,214 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:26:35,718 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:26:36,723 INFO spawned: 'nginx' with pid 1721
+2024-12-08 18:26:37,752 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:26:39,255 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:26:40,261 INFO spawned: 'nginx' with pid 1728
+2024-12-08 18:26:41,290 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:26:43,794 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:26:44,797 INFO spawned: 'nginx' with pid 1729
+2024-12-08 18:26:45,818 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:26:48,322 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:26:49,326 INFO spawned: 'nginx' with pid 1730
+2024-12-08 18:26:50,348 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:26:51,852 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:26:51,855 INFO spawned: 'nginx' with pid 1731
+2024-12-08 18:26:52,884 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:26:55,388 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:26:56,391 INFO spawned: 'nginx' with pid 1732
+2024-12-08 18:26:57,415 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:26:59,920 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:27:00,924 INFO spawned: 'nginx' with pid 1733
+2024-12-08 18:27:01,960 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:27:04,465 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:27:05,468 INFO spawned: 'nginx' with pid 1734
+2024-12-08 18:27:06,491 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:27:08,997 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:27:10,002 INFO spawned: 'nginx' with pid 1741
+2024-12-08 18:27:11,040 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:27:13,545 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:27:14,548 INFO spawned: 'nginx' with pid 1742
+2024-12-08 18:27:15,568 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:27:18,072 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:27:19,075 INFO spawned: 'nginx' with pid 1743
+2024-12-08 18:27:20,096 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:27:22,601 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:27:23,605 INFO spawned: 'nginx' with pid 1744
+2024-12-08 18:27:24,634 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:27:27,139 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:27:28,143 INFO spawned: 'nginx' with pid 1745
+2024-12-08 18:27:29,170 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:27:31,675 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:27:32,680 INFO spawned: 'nginx' with pid 1746
+2024-12-08 18:27:33,701 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:27:36,205 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:27:37,210 INFO spawned: 'nginx' with pid 1747
+2024-12-08 18:27:38,238 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:27:40,743 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:27:41,746 INFO spawned: 'nginx' with pid 1754
+2024-12-08 18:27:42,769 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:27:45,274 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:27:46,277 INFO spawned: 'nginx' with pid 1755
+2024-12-08 18:27:47,301 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:27:49,805 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:27:50,809 INFO spawned: 'nginx' with pid 1756
+2024-12-08 18:27:51,837 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:27:54,343 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:27:55,346 INFO spawned: 'nginx' with pid 1757
+2024-12-08 18:27:56,368 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:27:58,873 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:27:59,877 INFO spawned: 'nginx' with pid 1758
+2024-12-08 18:28:00,899 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:28:03,405 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:28:04,408 INFO spawned: 'nginx' with pid 1759
+2024-12-08 18:28:05,433 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:28:07,938 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:28:08,944 INFO spawned: 'nginx' with pid 1766
+2024-12-08 18:28:09,974 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:28:12,480 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:28:13,485 INFO spawned: 'nginx' with pid 1767
+2024-12-08 18:28:14,513 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:28:17,017 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:28:18,021 INFO spawned: 'nginx' with pid 1768
+2024-12-08 18:28:19,046 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:28:21,551 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:28:22,554 INFO spawned: 'nginx' with pid 1769
+2024-12-08 18:28:23,575 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:28:26,078 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:28:27,083 INFO spawned: 'nginx' with pid 1770
+2024-12-08 18:28:28,104 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:28:30,609 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:28:31,613 INFO spawned: 'nginx' with pid 1771
+2024-12-08 18:28:32,649 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:28:35,154 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:28:36,158 INFO spawned: 'nginx' with pid 1772
+2024-12-08 18:28:37,179 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:28:39,686 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:28:40,689 INFO spawned: 'nginx' with pid 1779
+2024-12-08 18:28:41,711 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:28:44,216 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:28:45,219 INFO spawned: 'nginx' with pid 1780
+2024-12-08 18:28:46,240 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:28:48,745 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:28:49,749 INFO spawned: 'nginx' with pid 1781
+2024-12-08 18:28:50,772 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:28:53,276 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:28:54,282 INFO spawned: 'nginx' with pid 1782
+2024-12-08 18:28:55,306 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:28:56,813 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:28:57,818 INFO spawned: 'nginx' with pid 1783
+2024-12-08 18:28:58,844 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:29:01,349 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:29:02,353 INFO spawned: 'nginx' with pid 1784
+2024-12-08 18:29:03,380 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:29:05,885 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:29:06,888 INFO spawned: 'nginx' with pid 1785
+2024-12-08 18:29:07,913 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:29:10,417 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:29:11,422 INFO spawned: 'nginx' with pid 1792
+2024-12-08 18:29:12,443 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:29:14,949 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:29:15,952 INFO spawned: 'nginx' with pid 1793
+2024-12-08 18:29:16,975 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:29:19,480 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:29:20,488 INFO spawned: 'nginx' with pid 1794
+2024-12-08 18:29:21,527 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:29:24,036 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:29:25,041 INFO spawned: 'nginx' with pid 1795
+2024-12-08 18:29:26,081 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:29:28,586 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:29:29,589 INFO spawned: 'nginx' with pid 1796
+2024-12-08 18:29:30,612 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:29:33,116 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:29:34,119 INFO spawned: 'nginx' with pid 1797
+2024-12-08 18:29:35,142 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:29:37,647 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:29:38,652 INFO spawned: 'nginx' with pid 1804
+2024-12-08 18:29:39,675 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:29:42,180 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:29:43,184 INFO spawned: 'nginx' with pid 1805
+2024-12-08 18:29:44,207 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:29:46,713 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:29:47,717 INFO spawned: 'nginx' with pid 1806
+2024-12-08 18:29:48,758 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:29:51,262 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:29:52,270 INFO spawned: 'nginx' with pid 1807
+2024-12-08 18:29:53,320 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:29:55,826 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:29:56,829 INFO spawned: 'nginx' with pid 1808
+2024-12-08 18:29:57,879 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:30:00,383 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:30:01,390 INFO spawned: 'nginx' with pid 1809
+2024-12-08 18:30:02,416 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:30:03,921 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:30:04,927 INFO spawned: 'nginx' with pid 1810
+2024-12-08 18:30:05,960 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:30:08,466 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:30:09,471 INFO spawned: 'nginx' with pid 1817
+2024-12-08 18:30:10,498 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:30:13,005 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:30:14,008 INFO spawned: 'nginx' with pid 1818
+2024-12-08 18:30:15,029 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:30:17,533 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:30:18,538 INFO spawned: 'nginx' with pid 1819
+2024-12-08 18:30:19,564 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:30:22,075 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:30:23,081 INFO spawned: 'nginx' with pid 1820
+2024-12-08 18:30:24,100 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:30:26,605 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:30:27,609 INFO spawned: 'nginx' with pid 1821
+2024-12-08 18:30:28,629 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:30:31,134 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:30:32,138 INFO spawned: 'nginx' with pid 1822
+2024-12-08 18:30:33,160 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:30:35,666 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:30:36,671 INFO spawned: 'nginx' with pid 1823
+2024-12-08 18:30:37,698 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:30:40,203 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:30:41,207 INFO spawned: 'nginx' with pid 1830
+2024-12-08 18:30:42,231 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:30:44,735 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:30:45,740 INFO spawned: 'nginx' with pid 1831
+2024-12-08 18:30:46,763 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:30:49,267 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:30:50,272 INFO spawned: 'nginx' with pid 1832
+2024-12-08 18:30:51,295 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:30:52,801 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:30:53,805 INFO spawned: 'nginx' with pid 1833
+2024-12-08 18:30:54,830 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:30:57,334 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:30:58,339 INFO spawned: 'nginx' with pid 1834
+2024-12-08 18:30:59,360 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:31:01,867 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:31:02,872 INFO spawned: 'nginx' with pid 1835
+2024-12-08 18:31:03,897 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:31:05,401 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:31:06,404 INFO spawned: 'nginx' with pid 1836
+2024-12-08 18:31:07,427 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:31:08,931 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:31:09,934 INFO spawned: 'nginx' with pid 1843
+2024-12-08 18:31:10,960 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:31:13,464 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:31:14,467 INFO spawned: 'nginx' with pid 1844
+2024-12-08 18:31:15,489 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:31:17,995 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:31:18,999 INFO spawned: 'nginx' with pid 1845
+2024-12-08 18:31:20,020 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:31:22,535 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:31:23,538 INFO spawned: 'nginx' with pid 1846
+2024-12-08 18:31:24,562 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:31:27,067 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:31:28,072 INFO spawned: 'nginx' with pid 1847
+2024-12-08 18:31:29,096 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:31:31,601 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:31:32,604 INFO spawned: 'nginx' with pid 1848
+2024-12-08 18:31:33,628 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:31:36,132 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:31:37,135 INFO spawned: 'nginx' with pid 1849
+2024-12-08 18:31:38,155 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:31:40,659 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:31:41,663 INFO spawned: 'nginx' with pid 1856
+2024-12-08 18:31:42,683 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:31:45,187 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:31:46,192 INFO spawned: 'nginx' with pid 1857
+2024-12-08 18:31:47,220 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:31:49,725 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:31:50,729 INFO spawned: 'nginx' with pid 1858
+2024-12-08 18:31:51,756 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:31:54,261 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:31:55,266 INFO spawned: 'nginx' with pid 1859
+2024-12-08 18:31:56,287 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:31:58,791 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:31:59,796 INFO spawned: 'nginx' with pid 1860
+2024-12-08 18:32:00,824 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:32:03,328 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:32:04,332 INFO spawned: 'nginx' with pid 1861
+2024-12-08 18:32:05,353 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:32:07,858 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:32:08,863 INFO spawned: 'nginx' with pid 1868
+2024-12-08 18:32:09,889 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:32:12,394 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:32:13,398 INFO spawned: 'nginx' with pid 1869
+2024-12-08 18:32:14,424 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:32:16,929 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:32:17,934 INFO spawned: 'nginx' with pid 1870
+2024-12-08 18:32:18,957 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:32:21,462 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:32:22,469 INFO spawned: 'nginx' with pid 1871
+2024-12-08 18:32:23,523 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:32:26,028 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:32:27,031 INFO spawned: 'nginx' with pid 1872
+2024-12-08 18:32:28,053 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:32:30,557 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:32:31,562 INFO spawned: 'nginx' with pid 1873
+2024-12-08 18:32:32,583 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:32:35,086 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:32:36,089 INFO spawned: 'nginx' with pid 1874
+2024-12-08 18:32:37,110 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:32:39,616 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:32:40,620 INFO spawned: 'nginx' with pid 1881
+2024-12-08 18:32:41,652 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:32:44,156 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:32:45,160 INFO spawned: 'nginx' with pid 1882
+2024-12-08 18:32:46,184 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:32:47,690 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:32:48,693 INFO spawned: 'nginx' with pid 1883
+2024-12-08 18:32:49,714 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:32:52,218 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:32:53,221 INFO spawned: 'nginx' with pid 1884
+2024-12-08 18:32:54,244 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:32:56,748 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:32:57,751 INFO spawned: 'nginx' with pid 1885
+2024-12-08 18:32:58,786 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:33:01,295 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:33:02,301 INFO spawned: 'nginx' with pid 1886
+2024-12-08 18:33:03,334 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:33:04,838 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:33:05,843 INFO spawned: 'nginx' with pid 1887
+2024-12-08 18:33:06,874 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:33:09,379 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:33:10,382 INFO spawned: 'nginx' with pid 1894
+2024-12-08 18:33:11,406 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:33:12,910 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:33:13,913 INFO spawned: 'nginx' with pid 1895
+2024-12-08 18:33:14,935 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:33:17,439 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:33:18,444 INFO spawned: 'nginx' with pid 1896
+2024-12-08 18:33:19,465 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:33:21,970 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:33:22,973 INFO spawned: 'nginx' with pid 1897
+2024-12-08 18:33:23,996 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:33:26,502 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:33:27,506 INFO spawned: 'nginx' with pid 1898
+2024-12-08 18:33:28,534 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:33:30,038 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:33:31,041 INFO spawned: 'nginx' with pid 1899
+2024-12-08 18:33:32,063 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:33:34,567 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:33:35,571 INFO spawned: 'nginx' with pid 1900
+2024-12-08 18:33:36,600 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:33:39,104 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:33:40,109 INFO spawned: 'nginx' with pid 1907
+2024-12-08 18:33:41,130 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:33:43,635 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:33:44,639 INFO spawned: 'nginx' with pid 1908
+2024-12-08 18:33:45,659 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:33:48,164 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:33:49,169 INFO spawned: 'nginx' with pid 1909
+2024-12-08 18:33:50,197 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:33:52,702 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:33:53,707 INFO spawned: 'nginx' with pid 1910
+2024-12-08 18:33:54,731 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:33:57,235 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:33:58,238 INFO spawned: 'nginx' with pid 1911
+2024-12-08 18:33:59,260 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:34:01,765 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:34:02,768 INFO spawned: 'nginx' with pid 1912
+2024-12-08 18:34:03,794 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:34:06,299 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:34:07,305 INFO spawned: 'nginx' with pid 1913
+2024-12-08 18:34:08,326 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:34:10,831 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:34:11,834 INFO spawned: 'nginx' with pid 1920
+2024-12-08 18:34:12,864 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:34:15,369 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:34:16,374 INFO spawned: 'nginx' with pid 1921
+2024-12-08 18:34:17,404 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:34:19,909 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:34:20,913 INFO spawned: 'nginx' with pid 1922
+2024-12-08 18:34:21,937 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:34:24,442 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:34:25,446 INFO spawned: 'nginx' with pid 1923
+2024-12-08 18:34:26,470 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:34:28,975 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:34:29,980 INFO spawned: 'nginx' with pid 1924
+2024-12-08 18:34:31,002 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:34:33,507 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:34:34,512 INFO spawned: 'nginx' with pid 1925
+2024-12-08 18:34:35,532 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:34:37,036 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:34:38,040 INFO spawned: 'nginx' with pid 1926
+2024-12-08 18:34:39,069 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:34:41,582 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:34:42,585 INFO spawned: 'nginx' with pid 1933
+2024-12-08 18:34:43,621 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:34:46,125 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:34:47,130 INFO spawned: 'nginx' with pid 1934
+2024-12-08 18:34:48,151 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:34:50,656 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:34:51,658 INFO spawned: 'nginx' with pid 1935
+2024-12-08 18:34:52,679 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:34:55,183 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:34:56,187 INFO spawned: 'nginx' with pid 1936
+2024-12-08 18:34:57,209 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:34:59,714 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:35:00,720 INFO spawned: 'nginx' with pid 1937
+2024-12-08 18:35:01,762 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:35:03,267 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:35:04,272 INFO spawned: 'nginx' with pid 1938
+2024-12-08 18:35:05,307 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:35:06,812 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:35:07,816 INFO spawned: 'nginx' with pid 1939
+2024-12-08 18:35:08,836 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:35:11,341 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:35:12,345 INFO spawned: 'nginx' with pid 1946
+2024-12-08 18:35:13,366 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:35:15,870 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:35:16,875 INFO spawned: 'nginx' with pid 1947
+2024-12-08 18:35:17,894 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:35:20,399 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:35:21,402 INFO spawned: 'nginx' with pid 1948
+2024-12-08 18:35:22,433 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:35:24,941 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:35:25,946 INFO spawned: 'nginx' with pid 1949
+2024-12-08 18:35:26,966 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:35:29,471 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:35:30,476 INFO spawned: 'nginx' with pid 1950
+2024-12-08 18:35:31,495 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:35:34,000 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:35:35,004 INFO spawned: 'nginx' with pid 1951
+2024-12-08 18:35:36,023 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:35:38,527 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:35:39,531 INFO spawned: 'nginx' with pid 1958
+2024-12-08 18:35:40,558 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:35:43,062 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:35:44,067 INFO spawned: 'nginx' with pid 1959
+2024-12-08 18:35:45,087 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:35:47,592 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:35:48,597 INFO spawned: 'nginx' with pid 1960
+2024-12-08 18:35:49,619 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:35:52,124 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:35:53,129 INFO spawned: 'nginx' with pid 1961
+2024-12-08 18:35:54,150 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:35:56,655 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:35:57,660 INFO spawned: 'nginx' with pid 1962
+2024-12-08 18:35:58,682 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:36:01,187 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:36:02,192 INFO spawned: 'nginx' with pid 1963
+2024-12-08 18:36:03,219 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:36:05,724 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:36:06,728 INFO spawned: 'nginx' with pid 1964
+2024-12-08 18:36:07,756 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:36:10,262 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:36:11,265 INFO spawned: 'nginx' with pid 1971
+2024-12-08 18:36:12,288 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:36:14,794 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:36:15,797 INFO spawned: 'nginx' with pid 1972
+2024-12-08 18:36:16,818 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:36:19,322 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:36:20,325 INFO spawned: 'nginx' with pid 1973
+2024-12-08 18:36:21,346 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:36:23,851 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:36:24,855 INFO spawned: 'nginx' with pid 1974
+2024-12-08 18:36:25,875 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:36:28,379 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:36:29,384 INFO spawned: 'nginx' with pid 1975
+2024-12-08 18:36:30,403 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:36:32,907 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:36:33,911 INFO spawned: 'nginx' with pid 1976
+2024-12-08 18:36:34,937 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:36:37,442 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:36:38,450 INFO spawned: 'nginx' with pid 1977
+2024-12-08 18:36:39,484 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-08 18:36:41,989 INFO exited: nginx (exit status 1; not expected)
+2024-12-08 18:36:42,992 INFO spawned: 'nginx' with pid 1984
