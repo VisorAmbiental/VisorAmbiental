@@ -24,10 +24,16 @@ RUN apt-get update --fix-missing && apt-get install -y \
 RUN mkdir -p /var/run/php && \ 
     chown -R www-data:www-data /var/run/php && \
     chmod 775 /var/run/php && \
-    sed -i 's|listen = 127.0.0.1:9000|listen = /var/run/php/php8.1-fpm.sock|' /usr/local/etc/php-fpm.d/www.conf && \
+    sed -i 's|listen = /var/run/php/php8.1-fpm.sock|listen = 127.0.0.1:9000|' /usr/local/etc/php-fpm.d/www.conf && \
+
+   # sed -i 's|listen = 127.0.0.1:9000|listen = /var/run/php/php8.1-fpm.sock|' /usr/local/etc/php-fpm.d/www.conf && \
     echo "listen.owner = www-data\nlisten.group = www-data\nlisten.mode = 0660" >> /usr/local/etc/php-fpm.d/www.conf
 
-RUN sed -i 's|listen = 9000|listen = /var/run/php/php8.1-fpm.sock|' /usr/local/etc/php-fpm.d/zz-docker.conf 
+
+RUN sed -i 's|listen = /var/run/php/php8.1-fpm.sock|listen = 127.0.0.1:9000|' /usr/local/etc/php-fpm.d/zz-docker.conf
+
+
+#RUN sed -i 's|listen = 9000|listen = /var/run/php/php8.1-fpm.sock|' /usr/local/etc/php-fpm.d/zz-docker.conf 
 
 
 # Instala Composer
@@ -52,8 +58,12 @@ RUN mkdir -p /var/log \
 RUN composer install --no-dev --optimize-autoloader --ignore-platform-reqs
 
 # Da permisos a las carpetas de almacenamiento y cache
-RUN chown -R www-data:www-data /var/www/html/storage /var/www/html/bootstrap/cache /var/www/html/public && \
+#RUN chown -R www-data:www-data /var/www/html/storage /var/www/html/bootstrap/cache /var/www/html/public && \
+RUN sed -i 's|listen = /var/run/php/php8.1-fpm.sock|listen = 127.0.0.1:9000|' /usr/local/etc/php-fpm.d/www.conf &&\
     chmod -R 775 /var/www/html/storage /var/www/html/bootstrap/cache /var/www/html/public
+
+RUN sed -i 's|listen = /var/run/php/php8.1-fpm.sock|listen = 127.0.0.1:9000|' /usr/local/etc/php-fpm.d/zz-docker.conf
+
 
 # Remover la configuración por defecto de Nginx
 RUN rm /etc/nginx/sites-enabled/default
