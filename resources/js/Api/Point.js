@@ -12,6 +12,7 @@ const Point = {
       {
         headers: {
           'Content-Type': 'multipart/form-data',
+          'X-XSRF-TOKEN': getCookie('XSRF-TOKEN')
         },
         withCredentials: true, // Enviar cookies para autenticación
       }
