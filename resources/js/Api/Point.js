@@ -1,7 +1,19 @@
+
+
 const Point = {
+
+ 
+
   get: () => axios.get(route('api.points.geojson')),
 
   storeImport: async (payload) => {
+
+    function getCookie(name) {
+      const value = `; ${document.cookie}`;
+      const parts = value.split(`; ${name}=`);
+      if (parts.length === 2) return parts.pop().split(';').shift();
+    }
+    
     // Solicitar token CSRF antes de la importación
     await axios.get(route('sanctum.csrf-cookie'), { withCredentials: true })
 
