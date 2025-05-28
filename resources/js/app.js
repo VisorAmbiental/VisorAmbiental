@@ -1,14 +1,17 @@
 // Import modules...
 import { createApp, h } from 'vue'
+import { createPinia } from 'pinia'
+import VueGates from 'vue-gates'
+
 import { createInertiaApp } from '@inertiajs/inertia-vue3'
 import { InertiaProgress } from '@inertiajs/progress'
+
 import Layout from '@/Layouts/AppLayout'
-import { createPinia } from 'pinia'
+
 import softUIDashboard from '@/Plugins/softUIDashboard'
 import translation from '@/Plugins/translation'
 import dateFormat from '@/Plugins/dateFormat'
 import timestampFormat from '@/Plugins/timestampFormat'
-import VueGates from 'vue-gates'
 import auth from '@/Plugins/auth'
 
 require('./bootstrap')
