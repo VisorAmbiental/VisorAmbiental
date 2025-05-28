@@ -1,4 +1,4 @@
-
+console.log("testeando app")
 
 const Point = {
 
