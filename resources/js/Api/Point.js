@@ -15,7 +15,7 @@ const Point = {
     }
     
     // Solicitar token CSRF antes de la importación
-    await axios.get(route('sanctum.csrf-cookie'), { withCredentials: true })
+    await axios.get('/sanctum/csrf-cookie', { withCredentials: true })
 
     // Enviar la solicitud de importación
     return axios.post(
