@@ -1,14 +1,14 @@
 {
-    "/js/app.js": "/js/app.js?id=5bce6afc8617739e527d3f22df7ccf0b",
-    "/css/app.css": "/css/app.css?id=9220ba7bf0e9b42b5420d5d182c01c6e",
-    "/images/background-image.webp": "/images/background-image.webp?id=2f5ae423a9d4b47bf8d42f912fdf3531",
-    "/images/logo1.svg": "/images/logo1.svg?id=0e8f5f2daf781519709b262353320b0a",
-    "/webfonts/fa-brands-400.ttf": "/webfonts/fa-brands-400.ttf?id=271b60d8619482f8168b10c9d9bd75c6",
-    "/webfonts/fa-brands-400.woff2": "/webfonts/fa-brands-400.woff2?id=0b5984039692449bafd77ec6b2a94ffd",
-    "/webfonts/fa-regular-400.ttf": "/webfonts/fa-regular-400.ttf?id=d6bdba38c7717d610a44aa6aabf53cee",
-    "/webfonts/fa-regular-400.woff2": "/webfonts/fa-regular-400.woff2?id=cb54ac147c84c164d0a83fcd06f9e9ad",
-    "/webfonts/fa-solid-900.ttf": "/webfonts/fa-solid-900.ttf?id=049ce078cc76ac740d55085e27008d02",
-    "/webfonts/fa-solid-900.woff2": "/webfonts/fa-solid-900.woff2?id=d0d39acc7b54ab04c9e1af5798a0f816",
-    "/webfonts/fa-v4compatibility.ttf": "/webfonts/fa-v4compatibility.ttf?id=12c356ac726e8e2bc1c28ce1a04ab4d7",
-    "/webfonts/fa-v4compatibility.woff2": "/webfonts/fa-v4compatibility.woff2?id=5bb25ae8c661619d1b32c029e4048cb6"
+    "/js/app.js": "/js/app.js",
+    "/css/app.css": "/css/app.css",
+    "/images/background-image.webp": "/images/background-image.webp",
+    "/images/logo1.svg": "/images/logo1.svg",
+    "/webfonts/fa-brands-400.ttf": "/webfonts/fa-brands-400.ttf",
+    "/webfonts/fa-brands-400.woff2": "/webfonts/fa-brands-400.woff2",
+    "/webfonts/fa-regular-400.ttf": "/webfonts/fa-regular-400.ttf",
+    "/webfonts/fa-regular-400.woff2": "/webfonts/fa-regular-400.woff2",
+    "/webfonts/fa-solid-900.ttf": "/webfonts/fa-solid-900.ttf",
+    "/webfonts/fa-solid-900.woff2": "/webfonts/fa-solid-900.woff2",
+    "/webfonts/fa-v4compatibility.ttf": "/webfonts/fa-v4compatibility.ttf",
+    "/webfonts/fa-v4compatibility.woff2": "/webfonts/fa-v4compatibility.woff2"
 }
