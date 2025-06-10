@@ -68,7 +68,7 @@ onMounted(() => {
   const map = new mapboxgl.Map({
     container: props.mapContainer,
     style: Config.defaultStyle(),
-    center: Config.center(), 
+    center: Config.center(),
     zoom: Config.zoom(),
   })
 
