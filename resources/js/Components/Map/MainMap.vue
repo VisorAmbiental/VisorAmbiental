@@ -65,12 +65,11 @@ const reportPontForm = ref(null)
 
 onMounted(() => {
   mapboxgl.accessToken = Config.apiKey()
-  console.log('Latitud:', process.env.MIX_MAP_CENTER_LAT, ',', 'Longitud:', process.env.MIX_MAP_CENTER_LAT)
   const map = new mapboxgl.Map({
-    container: props.mapContainer, // container ID
-    style: Config.defaultStyle(), // style URL
-    center: Config.center(), // starting position [lng, lat]
-    zoom: Config.zoom(), // starting zoom
+    container: props.mapContainer,
+    style: Config.defaultStyle(),
+    center: Config.center(), 
+    zoom: Config.zoom(),
   })
 
   map.addControl(new mapboxgl.NavigationControl())
