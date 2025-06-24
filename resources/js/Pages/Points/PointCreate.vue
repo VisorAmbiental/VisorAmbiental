@@ -1,5 +1,5 @@
 <template>
-  <Head title="Alta de nuevo Punto" />
+  <Head title="Alta de nuevo Punto"/>
   <div class="container-fluid mt-4">
     <div class="card">
       <div class="card-body">
